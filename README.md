@@ -1,4 +1,4 @@
-# Data Provenance and Lineage Tracking using FastAPI, SQLite, and Pandas.
+## Data Provenance and Lineage Tracking using FastAPI, SQLite, and Pandas.
 
 ## Overview
 This project implements a data provenance and lineage tracking system that records the complete history of data transformations across an ETL pipeline. It captures where data originates from, what operations are applied to it, and when each transformation occurs. The system enables transparent, auditable, and reproducible data workflows, which are critical in real-world analytics and machine learning pipelines.

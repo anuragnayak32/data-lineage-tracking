@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+db/lineage.db
+.env
+logs/

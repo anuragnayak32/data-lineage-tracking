@@ -5,6 +5,11 @@ from datetime import datetime
 
 DB_PATH = "db/lineage.db"
 
+
+df = pd.read_csv("data/raw_sales.csv")
+print(df)
+print("Rows read:", len(df))
+
 def log_lineage(dataset_id, source, operation, metadata):
     conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
